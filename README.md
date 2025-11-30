@@ -41,16 +41,10 @@ The main analysis is contained in `notebook/01_data_exploration.ipynb`. You can 
 jupyter notebook notebook/01_data_exploration.ipynb
 ```
 
-### Utility Scripts
-- **restore_cells.py**: This script is a utility to restore or append advanced analysis cells (Model Evaluation, ROI Analysis, Dashboard Export) to the main notebook if they are missing.
-  ```bash
-  python restore_cells.py
-  ```
-  *Note: This will modify `notebook/01_data_exploration.ipynb` by appending cells 11-15.*
 
 ## Project Structure
 - `notebook/`: Contains the Jupyter notebook for analysis.
 - `data/`: Directory for dataset files.
 - `outputs/`: Generated visualizations, summaries, and exported data.
 - `dashboard/`: (Optional) Dashboard files.
-- `restore_cells.py`: Helper script to restore notebook cells.
+
